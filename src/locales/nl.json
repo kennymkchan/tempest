@@ -27,9 +27,7 @@
         "We zullen u een e-mail sturen net voor we open gaan!",
       "admin_link_html":
         "Ben u de eigenaar van deze shop? <a href=\"/admin\">hier inloggen</a>",
-      "password_link": "Login met wachtwoord",
-      "powered_by_shopify_html":
-        "Deze shop zal worden ondersteund door {{ shopify }}"
+      "password_link": "Login met wachtwoord"
     },
     "social": {
       "share_on_facebook": "Deel",

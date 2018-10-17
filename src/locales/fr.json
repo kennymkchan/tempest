@@ -27,9 +27,7 @@
         "Nous vous ferons parvenir un courriel juste avant l'ouverture!",
       "admin_link_html":
         "Êtes-vous le propriétaire de la boutique? <a href=\"/admin\">Connectez-vous ici</a>.",
-      "password_link": "Entrer avec un mot de passe",
-      "powered_by_shopify_html":
-        "Cette boutique sera propulsée par {{ shopify }}"
+      "password_link": "Entrer avec un mot de passe"
     },
     "social": {
       "share_on_facebook": "Partager",

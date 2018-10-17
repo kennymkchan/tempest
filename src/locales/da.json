@@ -26,8 +26,7 @@
       "signup_form_success": "Vi sender dig en email lige inden vi åbner!",
       "admin_link_html":
         "Ejer du denne butik? <a href=\"/admin\">Log ind her</a>",
-      "password_link": "Åben ved brug af adgangskode",
-      "powered_by_shopify_html": "Denne butik vil blive drevet af {{ shopify }}"
+      "password_link": "Åben ved brug af adgangskode"
     },
     "social": {
       "share_on_facebook": "Del",

@@ -12,12 +12,6 @@ const config = {
   giftCardCode: '.giftcard__code',
 };
 
-// new QRCode($qrCode[0], {
-//   text: $qrCode.attr('data-identifier'),
-//   width: 120,
-//   height: 120,
-// });
-
 $(config.printButton).on('click', () => {
   window.print();
 });
