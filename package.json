@@ -36,7 +36,7 @@
     "normalize.css": "^7.0.0"
   },
   "scripts": {
-    "start": "slate-tools start",
+    "start": "slate-tools start --skipPrompts",
     "watch": "slate-tools start --skipFirstDeploy",
     "build": "slate-tools build",
     "deploy": "slate-tools build && slate-tools deploy",
