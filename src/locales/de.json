@@ -27,9 +27,7 @@
         "Wir senden Ihnen eine E-Mail, kurz bevor wir eröffnen!",
       "admin_link_html":
         "Sind Sie der Geschäftsinhaber? <a href=\"/admin\">Melden Sie sich hier an</a>",
-      "password_link": "Mit Passwort betreten",
-      "powered_by_shopify_html":
-        "Dieser Shop wird mit Hilfe von {{ shopify }} betrieben werden"
+      "password_link": "Mit Passwort betreten"
     },
     "social": {
       "share_on_facebook": "Teilen",
