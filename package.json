@@ -1,18 +1,19 @@
 {
-  "name": "starter-theme",
+  "name": "tempest",
   "version": "1.0.0-alpha.1",
-  "private": true,
-  "author": "Shopify Inc.",
-  "description": "An opinionated, Slate compatible, starting point for developing Shopify themes.",
+  "author": "Pixel Walrus",
+  "description": "An opinionated base for building Shopify Themes.",
   "keywords": [
     "shopify",
-    "theme"
+    "theme",
+    "template",
+    "liquid"
   ],
-  "bugs": "https://github.com/Shopify/starter-theme/issues",
+  "bugs": "https://github.com/kennymkchan/tempest/issues",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Shopify/starter-theme.git"
+    "url": "https://github.com/kennymkchan/tempest.git"
   },
   "devDependencies": {
     "@shopify/slate-tools": "1.0.0-beta.8",
@@ -40,7 +41,9 @@
     "build": "slate-tools build",
     "deploy": "slate-tools build && slate-tools deploy",
     "zip": "slate-tools build && slate-tools zip",
-    "lint": "slate-tools lint",
-    "format": "slate-tools format"
+    "format": "slate-tools format",
+    "stylelint": "stylelint src/assets/styles/**/*.scss",
+    "eslint": "eslint --quiet . && echo \"eslint: Looking good!\"",
+    "lint": "yarn stylelint && yarn eslint"
   }
 }
