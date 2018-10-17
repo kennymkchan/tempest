@@ -8,9 +8,6 @@
 {% endif %}
 
 <div data-section-id="{{ section.id }}" data-section-type="product">
-
-
-
   {% for image in product.images %}
     {% capture wrapper_class %}
       {%- unless featured_image == image -%}
@@ -115,7 +112,6 @@
           </span>
       </button>
     </form>
-
   </div>
 
   <div class="rte">
