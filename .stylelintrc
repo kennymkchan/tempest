@@ -1,12 +1,19 @@
 {
   "extends": [
     "stylelint-config-shopify",
-    "stylelint-config-prettier"
   ],
   "rules": {
+    "at-rule-name-newline-after": null,
     "color-no-hex": null,
-    "selector-class-pattern": null,
-    "selector-no-qualifying-type": null,
-    "selector-max-type": null
-  }
+    "font-weight-notation": null,
+    "function-comma-newline-after": null,
+    "function-max-empty-lines": 1,
+    "function-parentheses-newline-inside": null,
+    "function-url-scheme-whitelist": ['http', 'https', 'data'],
+    "order/properties-order": null,
+    "scss/at-extend-no-missing-placeholder": null,
+    "scss/partial-no-import": null,
+    "selector-class-pattern": "^[a-zA-Z][a-zA-Z0-9-_]+$",
+    "value-list-max-empty-lines": 1
+  },
 }

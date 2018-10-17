@@ -1,6 +1,6 @@
 {
-  "name": "tempest",
-  "version": "1.0.0-alpha.1",
+  "name": "Tempest",
+  "version": "1.0.0",
   "author": "Pixel Walrus",
   "description": "An opinionated base for building Shopify Themes.",
   "keywords": [
